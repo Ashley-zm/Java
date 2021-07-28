@@ -9,11 +9,14 @@
         <module name="springboot_first" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot_first" target="1.8" />
+      <module name="zm_sboot" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot_first" options="-parameters" />
-      <module name="zm_sboot" options="-parameters" />
     </option>
   </component>
 </project>
